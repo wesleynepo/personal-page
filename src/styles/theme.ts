@@ -1,6 +1,13 @@
 import { extendTheme } from '@chakra-ui/react'
 
 const customTheme = {
+  styles: {
+    global: {
+      body: {
+        bg: "secondary.800"
+      }
+    }
+  },
   colors: {
     primary: {
       '50': '#CAF0F7',

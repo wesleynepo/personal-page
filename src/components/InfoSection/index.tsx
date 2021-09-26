@@ -4,7 +4,7 @@ import { Text, VStack } from "@chakra-ui/layout"
 const InfoSection = () => {
   return (
     <VStack alignItems="left" color="white">
-      <Text color="primary.50" display="none" >
+      <Text color="primary.50">
         Opa, parece que você me encontrou!
       </Text>
 
