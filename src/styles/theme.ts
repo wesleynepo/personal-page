@@ -4,7 +4,7 @@ const customTheme = {
   styles: {
     global: {
       body: {
-        bg: "secondary.800"
+        bg: 'secondary.800'
       }
     }
   },
@@ -32,11 +32,10 @@ const customTheme = {
       '700': '#2D3748',
       '800': '#1A202C',
       '900': '#171923'
-    },
+    }
   },
   fonts: {
-    body:
-      "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    body: "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     heading:
       "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
   }
@@ -45,23 +44,3 @@ const customTheme = {
 export const theme = extendTheme(customTheme)
 
 export type Theme = typeof customTheme & typeof theme
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
