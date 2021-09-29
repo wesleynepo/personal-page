@@ -1,15 +1,15 @@
-import * as React from "react"
-import {
-  ChakraProvider,
-  Container
-} from "@chakra-ui/react"
-import { theme } from "./styles/theme"
-import InfoSection from "./components/InfoSection"
+import { ChakraProvider, Container } from '@chakra-ui/react'
+import { theme } from './styles/theme'
+import InfoSection from './components/InfoSection'
+import ExperienceSection from './components/ExperienceSection'
+import { infoSectionMock } from './components/InfoSection/mock'
+import { works } from './components/ExperienceSection/mock'
 
 export const App = () => (
   <ChakraProvider theme={theme}>
     <Container mt="10">
-      <InfoSection/>
+      <InfoSection {...infoSectionMock} />
+      <ExperienceSection works={works} />
     </Container>
   </ChakraProvider>
 )
