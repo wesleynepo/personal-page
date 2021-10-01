@@ -1,5 +1,5 @@
-import React from 'react'
 import { Text, VStack } from '@chakra-ui/layout'
+import SocialMedia, { SocialMediaProps } from '../SocialMedia'
 
 export type InfoSectionProps = {
   firstname: string
@@ -7,14 +7,15 @@ export type InfoSectionProps = {
   heading: string
   title: string
   description: string
-}
+} & SocialMediaProps
 
 const InfoSection = ({
   firstname,
   lastname,
   heading,
   title,
-  description
+  description,
+  links
 }: InfoSectionProps) => {
   return (
     <VStack alignItems="left" color="white">
@@ -38,11 +39,12 @@ const InfoSection = ({
       >
         {lastname}
       </Text>
+      <SocialMedia links={links} />
       <Text fontWeight="bold" color="primary.200">
         {title}
       </Text>
       <Text
-        fontSize="sm"
+        fontSize="md"
         color="primary.50"
         pt="10"
         dangerouslySetInnerHTML={{ __html: description }}

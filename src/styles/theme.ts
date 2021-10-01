@@ -32,12 +32,14 @@ const customTheme = {
       '700': '#2D3748',
       '800': '#1A202C',
       '900': '#171923'
+    },
+    overlay: {
+      '50': '#F7FAFC'
     }
   },
   fonts: {
-    body: "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    heading:
-      "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+    body: 'Poppins',
+    heading: 'Poppins'
   }
 }
 
