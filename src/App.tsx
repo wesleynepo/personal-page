@@ -7,7 +7,7 @@ import { works } from './components/ExperienceSection/mock'
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Container mt="10">
+    <Container mt="10" maxW={{ base: 'container.sm', md: 'container.lg' }}>
       <InfoSection {...infoSectionMock} />
       <ExperienceSection works={works} />
     </Container>

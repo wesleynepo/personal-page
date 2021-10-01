@@ -32,6 +32,9 @@ const customTheme = {
       '700': '#2D3748',
       '800': '#1A202C',
       '900': '#171923'
+    },
+    overlay: {
+      '50': '#F7FAFC'
     }
   },
   fonts: {
