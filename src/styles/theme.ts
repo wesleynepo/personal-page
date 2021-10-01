@@ -38,9 +38,8 @@ const customTheme = {
     }
   },
   fonts: {
-    body: "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    heading:
-      "Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+    body: 'Poppins',
+    heading: 'Poppins'
   }
 }
 

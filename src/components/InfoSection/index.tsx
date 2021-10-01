@@ -44,7 +44,7 @@ const InfoSection = ({
         {title}
       </Text>
       <Text
-        fontSize="sm"
+        fontSize="md"
         color="primary.50"
         pt="10"
         dangerouslySetInnerHTML={{ __html: description }}
