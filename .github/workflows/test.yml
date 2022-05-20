@@ -1,0 +1,17 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: node:16-alpine
+    steps:
+      - run: yarn
+      - run: yarn jest
