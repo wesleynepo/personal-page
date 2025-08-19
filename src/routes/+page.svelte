@@ -56,9 +56,6 @@
 				<div class="company">Coinbase</div>
 				<div class="position">Software Engineer</div>
 				<div class="duration">October 2024 - Present</div>
-				<div class="description">
-					Building the future of financial infrastructure and increasing economic freedom worldwide.
-				</div>
 			</div>
 
 			<div class="experience-item">
@@ -173,8 +170,8 @@
 	}
 
 	.experience-item {
-		margin-bottom: 2rem;
-		padding-bottom: 1.5rem;
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
 	}
 
 	.experience-item:last-child {
