@@ -221,21 +221,5 @@
                     <div class="description">Maintained ERP and food service solutions. Improved performance by reducing algorithm complexity and created a TypeScript VSCode extension.</div>
                 </div>
             </div>
-
-            <div class="section">
-                <h3>Education</h3>
-
-                <div class="education-item">
-                    <div class="school">Universidade Estadual de Maringá</div>
-                    <div class="degree">Postgraduate Degree, Project Management</div>
-                    <div class="period">2019 - 2021</div>
-                </div>
-
-                <div class="education-item">
-                    <div class="school">Unicesumar</div>
-                    <div class="degree">Bachelor's Degree, Civil Engineering</div>
-                    <div class="period">2014 - 2018</div>
-                </div>
-            </div>
         </div>
     </div>
