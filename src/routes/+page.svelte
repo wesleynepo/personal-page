@@ -65,40 +65,24 @@
 				<div class="company">Mercado Libre</div>
 				<div class="position">Software Engineer - Cloud & Platform</div>
 				<div class="duration">March 2024 - September 2024</div>
-				<div class="description">
-					Maintained serverless computing solutions using Kubernetes, Terraform, and multi-cloud
-					environments with AWS, GCP, and other platforms.
-				</div>
 			</div>
 
 			<div class="experience-item">
 				<div class="company">Mercado Libre</div>
 				<div class="position">Software Engineer - MercadoPago</div>
 				<div class="duration">September 2022 - February 2024</div>
-				<div class="description">
-					Developed payment integration solutions for partners like TiendaNube, Wix, and PagTesouro
-					using Kotlin, Java, Go, and React.
-				</div>
 			</div>
 
 			<div class="experience-item">
 				<div class="company">Gazin Tech</div>
 				<div class="position">Software Developer</div>
 				<div class="duration">March 2021 - August 2022</div>
-				<div class="description">
-					Implemented SEO improvements using lazy loading, WebP image optimization, SSR with
-					Next.js. Developed CDC solutions with Apache Kafka.
-				</div>
 			</div>
 
 			<div class="experience-item">
 				<div class="company">SG Sistemas</div>
 				<div class="position">Software Developer</div>
 				<div class="duration">May 2019 - January 2021</div>
-				<div class="description">
-					Maintained ERP and food service solutions. Improved performance by reducing algorithm
-					complexity and created a TypeScript VSCode extension.
-				</div>
 			</div>
 		</div>
 	</div>
