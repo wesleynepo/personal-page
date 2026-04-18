@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:16-alpine
+    container: node:24-alpine
     steps:
       - uses: actions/checkout@v2
       - run: yarn
