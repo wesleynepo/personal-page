@@ -1,242 +1,435 @@
-<div class="header-section">
-	<h1>Wesley Nepomuceno</h1>
-	<h2>Software Engineer at Coinbase</h2>
-	<p class="tagline">Our mission is to increase economic freedom in the world.</p>
+<svelte:head>
+	<title>Wesley Nepomuceno</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
 
-	<ul class="list-logo" aria-label="Social media">
-		<li>
-			<a href="https://www.linkedin.com/in/wesleynepo/" target="_blank" rel="noreferrer">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
-					/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/wesleynepo" target="_blank" rel="noreferrer">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 16 16"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-					/>
-				</svg>
-			</a>
-		</li>
-		<li>
-			<a href="https://instagram.com/wesleynepo" target="_blank" rel="noreferrer">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 1000 1000"
-					fill="currentColor"
-					aria-hidden="true"
-				>
-					<path
-						d="M295.42,6c-53.2,2.51-89.53,11-121.29,23.48-32.87,12.81-60.73,30-88.45,57.82S40.89,143,28.17,175.92c-12.31,31.83-20.65,68.19-23,121.42S2.3,367.68,2.56,503.46,3.42,656.26,6,709.6c2.54,53.19,11,89.51,23.48,121.28,12.83,32.87,30,60.72,57.83,88.45S143,964.09,176,976.83c31.8,12.29,68.17,20.67,121.39,23s70.35,2.87,206.09,2.61,152.83-.86,206.16-3.39S799.1,988,830.88,975.58c32.87-12.86,60.74-30,88.45-57.84S964.1,862,976.81,829.06c12.32-31.8,20.69-68.17,23-121.35,2.33-53.37,2.88-70.41,2.62-206.17s-.87-152.78-3.4-206.1-11-89.53-23.47-121.32c-12.85-32.87-30-60.7-57.82-88.45S862,40.87,829.07,28.19c-31.82-12.31-68.17-20.7-121.39-23S637.33,2.3,501.54,2.56,348.75,3.4,295.42,6m5.84,903.88c-48.75-2.12-75.22-10.22-92.86-17-23.36-9-40-19.88-57.58-37.29s-28.38-34.11-37.5-57.42c-6.85-17.64-15.1-44.08-17.38-92.83-2.48-52.69-3-68.51-3.29-202s.22-149.29,2.53-202c2.08-48.71,10.23-75.21,17-92.84,9-23.39,19.84-40,37.29-57.57s34.1-28.39,57.43-37.51c17.62-6.88,44.06-15.06,92.79-17.38,52.73-2.5,68.53-3,202-3.29s149.31.21,202.06,2.53c48.71,2.12,75.22,10.19,92.83,17,23.37,9,40,19.81,57.57,37.29s28.4,34.07,37.52,57.45c6.89,17.57,15.07,44,17.37,92.76,2.51,52.73,3.08,68.54,3.32,202s-.23,149.31-2.54,202c-2.13,48.75-10.21,75.23-17,92.89-9,23.35-19.85,40-37.31,57.56s-34.09,28.38-57.43,37.5c-17.6,6.87-44.07,15.07-92.76,17.39-52.73,2.48-68.53,3-202.05,3.29s-149.27-.25-202-2.53m407.6-674.61a60,60,0,1,0,59.88-60.1,60,60,0,0,0-59.88,60.1M245.77,503c.28,141.8,115.44,256.49,257.21,256.22S759.52,643.8,759.25,502,643.79,245.48,502,245.76,245.5,361.22,245.77,503m90.06-.18a166.67,166.67,0,1,1,167,166.34,166.65,166.65,0,0,1-167-166.34"
-					/>
-				</svg>
-			</a>
-		</li>
-	</ul>
+<div class="page">
+	<div class="bento-grid">
 
-	<div class="content-section">
-		<div class="section">
-			<h3>Experience</h3>
+		<!-- HERO -->
+		<div class="card card-hero">
+			<span class="label">PERSONAL PAGE</span>
+			<h1>WESLEY<br />NEPOMUCENO</h1>
+			<p class="hero-role">Software Engineer</p>
+			<p class="hero-tagline">
+				Software Engineer with 7 years of experience, from ERP systems to cloud platforms.
+				Played roles across payments, ecommerce, and fintech — scoping projects, driving
+				architectural initiatives, and building infrastructure at scale.
+			</p>
+		</div>
 
-			<div class="experience-item">
-				<div class="company">Coinbase</div>
-				<div class="position">Software Engineer</div>
-				<div class="duration">October 2024 - Present</div>
+		<!-- CURRENT ROLE -->
+		<div class="card card-current">
+			<span class="label">CURRENTLY</span>
+			<div class="current-body">
+				<div class="current-company">Coinbase</div>
+				<div class="current-role">Software Engineer</div>
+				<div class="current-since">Oct 2024 — Present</div>
 			</div>
+			<div class="halftone-circle"></div>
+		</div>
 
-			<div class="experience-item">
-				<div class="company">Mercado Libre</div>
-				<div class="position">Software Engineer - Cloud & Platform</div>
-				<div class="duration">March 2024 - September 2024</div>
-			</div>
-
-			<div class="experience-item">
-				<div class="company">Mercado Libre</div>
-				<div class="position">Software Engineer - MercadoPago</div>
-				<div class="duration">September 2022 - February 2024</div>
-			</div>
-
-			<div class="experience-item">
-				<div class="company">Gazin Tech</div>
-				<div class="position">Software Developer</div>
-				<div class="duration">March 2021 - August 2022</div>
-			</div>
-
-			<div class="experience-item">
-				<div class="company">SG Sistemas</div>
-				<div class="position">Software Developer</div>
-				<div class="duration">May 2019 - January 2021</div>
+		<!-- EXPERIENCE -->
+		<div class="card card-experience">
+			<span class="label">EXPERIENCE</span>
+			<div class="exp-list">
+				<div class="exp-item">
+					<div class="exp-company">Coinbase</div>
+					<div class="exp-role">Software Engineer</div>
+					<div class="exp-date">Oct 2024 — Present</div>
+					<div class="exp-tags">
+						<span class="tag">Go</span>
+						<span class="tag">Python</span>
+						<span class="tag">Compliance</span>
+						<span class="tag">CX</span>
+					</div>
+				</div>
+				<div class="exp-item">
+					<div class="exp-company">Mercado Libre</div>
+					<div class="exp-role">SWE — Cloud & Platform</div>
+					<div class="exp-date">Mar 2024 — Sep 2024</div>
+					<div class="exp-tags">
+						<span class="tag">Go</span>
+						<span class="tag">K8s</span>
+						<span class="tag">GCP</span>
+						<span class="tag">AWS</span>
+					</div>
+				</div>
+				<div class="exp-item">
+					<div class="exp-company">Mercado Libre</div>
+					<div class="exp-role">SWE — MercadoPago</div>
+					<div class="exp-date">Sep 2022 — Feb 2024</div>
+					<div class="exp-tags">
+						<span class="tag">Go</span>
+						<span class="tag">Java</span>
+						<span class="tag">Payments</span>
+						<span class="tag">Ecommerce</span>
+					</div>
+				</div>
+				<div class="exp-item">
+					<div class="exp-company">Gazin Tech</div>
+					<div class="exp-role">Software Developer</div>
+					<div class="exp-date">Mar 2021 — Aug 2022</div>
+					<div class="exp-tags">
+						<span class="tag">TypeScript</span>
+						<span class="tag">PHP</span>
+						<span class="tag">Ecommerce</span>
+					</div>
+				</div>
+				<div class="exp-item">
+					<div class="exp-company">SG Sistemas</div>
+					<div class="exp-role">Software Developer</div>
+					<div class="exp-date">May 2019 — Jan 2021</div>
+					<div class="exp-tags">
+						<span class="tag">C</span>
+						<span class="tag">Harbour/Clipper</span>
+						<span class="tag">ERP</span>
+						<span class="tag">Food Service</span>
+					</div>
+				</div>
 			</div>
 		</div>
+
+		<!-- MISSION -->
+		<div class="card card-mission">
+			<span class="label">MISSION</span>
+			<p class="mission-text">
+				Our mission is to increase economic freedom in the world.
+			</p>
+			<p class="mission-sub">
+				Building the financial infrastructure for the open internet.
+			</p>
+			<div class="dot-decoration"></div>
+		</div>
+
+		<!-- CONNECT -->
+		<div class="card card-connect">
+			<span class="label">CONNECT</span>
+			<div class="connect-links">
+				<a href="https://www.linkedin.com/in/wesleynepo/" target="_blank" rel="noreferrer">
+					<span>LinkedIn</span><span class="arrow">↗</span>
+				</a>
+				<a href="https://github.com/wesleynepo" target="_blank" rel="noreferrer">
+					<span>GitHub</span><span class="arrow">↗</span>
+				</a>
+				<a href="https://instagram.com/wesleynepo" target="_blank" rel="noreferrer">
+					<span>Instagram</span><span class="arrow">↗</span>
+				</a>
+				<a href="https://www.strava.com/athletes/42153185" target="_blank" rel="noreferrer">
+					<span>Strava</span><span class="arrow">↗</span>
+				</a>
+			</div>
+		</div>
+
 	</div>
 </div>
 
 <style>
-	* {
+	:global(*) {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
 
-	body {
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-		line-height: 1.6;
-		color: #333;
-		background: white;
-	}
-
-	.header-section {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
-		padding-left: 1.5rem;
-		padding-right: 1.5rem;
-		max-width: 1280px;
+	:global(body) {
+		background: #e6e6e2;
+		font-family: 'Space Mono', 'Courier New', monospace;
+		color: #1a1a1a;
 		min-height: 100vh;
+	}
+
+	.page {
+		max-width: 1080px;
 		margin: 0 auto;
+		padding: 2.5rem 1.5rem;
 	}
 
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 700;
-		margin-bottom: 0.5rem;
+	.bento-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 10px;
+		grid-template-areas:
+			'hero hero    current'
+			'exp  connect mission'
+			'exp  connect mission';
 	}
 
-	h2 {
-		letter-spacing: -0.025em;
-		font-weight: 500;
-		font-size: 1.125rem;
-		line-height: 1.75rem;
-		color: #666;
-		margin-bottom: 0.5rem;
+	/* ── Card base ── */
+	.card {
+		background: #ffffff;
+		border: 1.5px solid #1a1a1a;
+		border-radius: 4px;
+		padding: 1.5rem;
+		position: relative;
+		overflow: hidden;
+		transition:
+			transform 0.18s ease,
+			box-shadow 0.18s ease;
+		animation: fadeUp 0.5s ease both;
 	}
 
-	.tagline {
-		color: #777;
-		margin-bottom: 2rem;
-		font-size: 1rem;
+	.card:hover {
+		transform: translateY(-3px);
+		box-shadow: 4px 4px 0 #1a1a1a;
 	}
 
-	.list-logo {
-		display: flex;
-		list-style: none;
-		gap: 1.25rem;
-		margin-bottom: 3rem;
-	}
-
-	.list-logo a {
+	.label {
 		display: block;
-		color: black;
-		text-decoration: none;
-		transition: color 0.3s ease;
+		font-size: 0.6rem;
+		letter-spacing: 0.18em;
+		color: #999;
+		margin-bottom: 1.25rem;
 	}
 
-	.list-logo a:hover {
-		color: #666;
+	/* ── Hero ── */
+	.card-hero {
+		grid-area: hero;
+		animation-delay: 0ms;
 	}
 
-	svg {
-		width: 1.5rem;
-		height: 1.5rem;
+	.card-hero h1 {
+		font-size: clamp(2.8rem, 5.5vw, 4.5rem);
+		font-weight: 700;
+		line-height: 0.9;
+		letter-spacing: -0.02em;
+		margin-bottom: 1.25rem;
 	}
 
-	.content-section {
-		max-width: 800px;
+	.hero-role {
+		font-size: 0.75rem;
+		color: #888;
+		letter-spacing: 0.05em;
+		margin-bottom: 0.5rem;
 	}
 
-	.section {
-		margin-bottom: 3rem;
+	.hero-tagline {
+		font-size: 0.78rem;
+		line-height: 1.75;
+		color: #555;
+		max-width: 560px;
 	}
 
-	.section h3 {
-		font-size: 1.5rem;
-		font-weight: 600;
-		margin-bottom: 2rem;
-		border-bottom: 1px solid #eee;
-		padding-bottom: 0.5rem;
+	/* ── Current ── */
+	.card-current {
+		grid-area: current;
+		display: flex;
+		flex-direction: column;
+		animation-delay: 60ms;
 	}
 
-	.experience-item {
-		margin-bottom: 1rem;
-		padding-bottom: 1rem;
+	.current-body {
+		flex: 1;
 	}
 
-	.experience-item:last-child {
-		margin-bottom: 0;
+	.current-company {
+		font-size: 2rem;
+		font-weight: 700;
+		line-height: 1.05;
+		margin-bottom: 0.5rem;
+	}
+
+	.current-role {
+		font-size: 0.75rem;
+		color: #555;
+		margin-bottom: 0.2rem;
+	}
+
+	.current-since {
+		font-size: 0.65rem;
+		color: #aaa;
+	}
+
+	.halftone-circle {
+		width: 72px;
+		height: 72px;
+		border-radius: 50%;
+		background-image: radial-gradient(circle, #1a1a1a 1.5px, transparent 1.5px);
+		background-size: 7px 7px;
+		align-self: flex-end;
+		margin-top: 1.5rem;
+		flex-shrink: 0;
+	}
+
+	/* ── Experience ── */
+	.card-experience {
+		grid-area: exp;
+		animation-delay: 120ms;
+	}
+
+	.exp-list {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.exp-item {
+		padding: 0.9rem 0;
+		border-bottom: 1px solid #ebebeb;
+	}
+
+	.exp-item:first-child {
+		padding-top: 0;
+	}
+
+	.exp-item:last-child {
+		border-bottom: none;
 		padding-bottom: 0;
 	}
 
-	.company {
-		font-weight: 600;
-		font-size: 1.1rem;
-		margin-bottom: 0.25rem;
+	.exp-company {
+		font-weight: 700;
+		font-size: 0.8rem;
+		margin-bottom: 0.15rem;
 	}
 
-	.position {
-		font-weight: 500;
-		margin-bottom: 0.25rem;
+	.exp-role {
+		font-size: 0.7rem;
+		color: #555;
+		margin-bottom: 0.15rem;
 	}
 
-	.duration {
-		font-size: 0.9rem;
-		color: #666;
+	.exp-date {
+		font-size: 0.6rem;
+		color: #aaa;
+		margin-bottom: 0.45rem;
+	}
+
+	.exp-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4px;
+	}
+
+	.tag {
+		font-size: 0.55rem;
+		letter-spacing: 0.06em;
+		border: 1px solid #d0d0cc;
+		padding: 0.2rem 0.45rem;
+		color: #888;
+	}
+
+	/* ── Mission ── */
+	.card-mission {
+		grid-area: mission;
+		display: flex;
+		flex-direction: column;
+		animation-delay: 240ms;
+	}
+
+	.mission-text {
+		font-size: 0.82rem;
+		line-height: 1.7;
+		color: #1a1a1a;
 		margin-bottom: 0.75rem;
 	}
 
-	.description {
-		color: #555;
+	.mission-sub {
+		font-size: 0.72rem;
 		line-height: 1.6;
+		color: #888;
+		font-style: italic;
+		flex: 1;
 	}
 
-	.education-item {
-		margin-bottom: 1.5rem;
+	.dot-decoration {
+		width: 100%;
+		height: 100px;
+		background-image: radial-gradient(circle, #c8c8c4 1.5px, transparent 1.5px);
+		background-size: 11px 11px;
+		margin-top: 1.5rem;
+		border: 1px solid #e4e4e0;
+		border-radius: 2px;
 	}
 
-	.education-item:last-child {
-		margin-bottom: 0;
+	/* ── Connect ── */
+	.card-connect {
+		grid-area: connect;
+		animation-delay: 180ms;
+		display: flex;
+		flex-direction: column;
 	}
 
-	.school {
-		font-weight: 600;
-		font-size: 1.1rem;
-		margin-bottom: 0.25rem;
+	.connect-links {
+		display: flex;
+		flex-direction: column;
 	}
 
-	.degree {
-		font-weight: 500;
-		margin-bottom: 0.25rem;
+	.connect-links a {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.75rem 0;
+		border-bottom: 1px solid #ebebeb;
+		text-decoration: none;
+		color: #1a1a1a;
+		font-size: 0.75rem;
+		transition: color 0.15s ease;
 	}
 
-	.period {
-		font-size: 0.9rem;
-		color: #666;
+	.connect-links a:first-child {
+		padding-top: 0;
 	}
 
-	@media (max-width: 768px) {
-		.header-section {
-			padding-left: 1rem;
-			padding-right: 1rem;
+	.connect-links a:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	.connect-links a:hover {
+		color: #888;
+	}
+
+	.arrow {
+		font-size: 0.8rem;
+		color: #ccc;
+		transition: color 0.15s ease;
+	}
+
+	.connect-links a:hover .arrow {
+		color: #888;
+	}
+
+	/* ── Animation ── */
+	@keyframes fadeUp {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	/* ── Responsive ── */
+	@media (max-width: 900px) {
+		.bento-grid {
+			grid-template-columns: 1fr 1fr;
+			grid-template-areas:
+				'hero    hero'
+				'current exp'
+				'connect exp'
+				'mission mission';
+		}
+	}
+
+	@media (max-width: 560px) {
+		.bento-grid {
+			grid-template-columns: 1fr;
+			grid-template-areas:
+				'hero'
+				'current'
+				'exp'
+				'mission'
+				'connect';
 		}
 
-		h1 {
-			font-size: 2rem;
-		}
-
-		.list-logo {
-			gap: 1rem;
+		.card-hero h1 {
+			font-size: 2.5rem;
 		}
 	}
 </style>
